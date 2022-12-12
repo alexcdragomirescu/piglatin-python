@@ -15,10 +15,7 @@ def pigify(text):
     return ' '.join(piglatinWords)
 
 
-parser = argparse.ArgumentParser(
-    'convert.py',
-    description=''
-)
+parser = argparse.ArgumentParser()
 parser.add_argument('input', type=str)
 args = parser.parse_args()
 
